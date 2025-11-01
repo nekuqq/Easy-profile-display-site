@@ -55,12 +55,23 @@ h1 {
   margin-top: 10px;
   font-size: 18px;
   white-space: nowrap;
-  border-right: 2px solid white;
   overflow: hidden;
-  animation: blink 0.8s infinite;
+  display: inline-block;
+  position: relative;
+  padding-right: 4px;
+}
+
+.typewriter::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: white;
+  animation: blink 0.8s step-start infinite;
 }
 
 @keyframes blink {
-  0%, 50% { border-color: white; }
-  51%, 100% { border-color: transparent; }
+  50% { opacity: 0; }
 }
