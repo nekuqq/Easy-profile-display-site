@@ -1,12 +1,11 @@
- /* :) */
+/* :) */
 const texts = [
   "Hi, I'm nekuq.",
   "I'm 13 now. ⍨",
-  "made of 「Raccoon」",
-  "TikTok id @nekuqfn",
-  "Discord id @nekuq",
-  "TikTok id @nekuqfn"
- 
+  'made of 「Raccoon」',
+  'TikTok id @nekuqfn',
+  'Discord id @nekuq',
+  'TikTok id @nekuqfn'
 ];
 
 const typewriter = document.getElementById("typewriter");
