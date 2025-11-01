@@ -1,2 +1,2 @@
-;)
+:)
 Easy-profile-display-site
