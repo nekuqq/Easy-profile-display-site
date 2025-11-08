@@ -3,8 +3,7 @@ const texts = [
   "I'm 13 now. ⍨",
   "made of 「Raccoon」",
   "TikTok id @nekuqfn",
-  "Discord id @nekuq",
-  "TikTok id @nekuqfn"
+  "Discord id @nekuq"
 ];
 
 const typewriter = document.getElementById("typewriter");
